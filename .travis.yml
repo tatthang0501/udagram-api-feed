@@ -7,7 +7,7 @@ services:
 
 # Build
 script:
-  - docker build -t udagram-api-feed ./udagram-api-feed
+  - docker build -t udagram-api-feed .
 # Tagging
   - docker tag udagram-api-feed tatthang0501/udagram-api-feed:v1
 # Do similar for other three images
